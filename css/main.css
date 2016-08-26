@@ -1,0 +1,32 @@
+h2 h5{
+	font-family: 'Courgette', cursive;
+}
+span{
+	color:#47E33B;
+	font-size:80px;
+	margin: 5px;
+}
+.caja{
+	width: 200px;
+	height: 250px;
+	float:left;
+	box-shadow: 0 1px 1px 0 ;
+	font-family: 'Handlee', cursive;
+	font-size: 12px;
+	text-align: center;
+	padding: 10px;
+	margin:5px;
+}
+.caja:hover{
+	width: 210px;
+	height: 260px;
+	font-size: 13px;
+	color:gray;
+	-webkit-transition: width 1s; /* Safari */
+	transition: width 1s;
+}
+.caja:hover span{
+	color:#7FCDD9;
+	font-size:90px;
+	transition: width 1s;
+}
