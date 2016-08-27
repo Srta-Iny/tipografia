@@ -1,6 +1,7 @@
-h2 h5{
+h2, h5{
 	font-family: 'Courgette', cursive;
 }
+
 span{
 	color:#47E33B;
 	font-size:80px;
@@ -28,5 +29,6 @@ span{
 .caja:hover span{
 	color:#7FCDD9;
 	font-size:90px;
+	-webkit-transition: width 1s; /* Safari */
 	transition: width 1s;
 }
